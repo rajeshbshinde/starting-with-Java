@@ -1,4 +1,4 @@
-package src.com.rajesh;
+package src.rajesh.programingbasics;
 
 import java.util.Scanner;
 

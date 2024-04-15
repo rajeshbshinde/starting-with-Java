@@ -1,4 +1,4 @@
-package src.com.rajesh;
+package src.rajesh.programingbasics;
 
 public class Primitives {
     public static void main(String[] args) {
