@@ -2,9 +2,7 @@ package src.rajesh.stringManipulations;
 
 import javafx.collections.transformation.SortedList;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class BoldSubSubstring {
     public static String boldKeywords(String s, List<String> keywords){
@@ -38,11 +36,21 @@ public class BoldSubSubstring {
     }
     public static void main(String[] args) {
         String s = "aaabbccaaa";
+        Map<Integer,List<String>> listMap = new HashMap<>();
         List<String> keywords = new ArrayList<>();
         keywords.add("aaa");
         keywords.add("aab");
         keywords.add("bc");
         String result = boldKeywords(s, keywords);
+        //listMap.put(1,keywords);
+        //listMap.get(1);
+        //Set<Integer> set = new HashSet<>();
+        //set = listMap.keySet();
+//        for(Integer  i: listMap.keySet()){
+//
+//        }
+//        Collection<List<String>> col = listMap.values();
+//
         System.out.println(result); // Output: "<b>aaabbc</b>c<b>aaa</b>"
     }
 

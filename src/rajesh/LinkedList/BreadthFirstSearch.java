@@ -45,8 +45,6 @@ public class BreadthFirstSearch {
         root.right = new Node(3);
             root.right.left = new Node(6);
             root.right.right = new Node(7);
-
-
         levelOrderTraversal(root);
     }
 }

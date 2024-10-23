@@ -1,6 +1,7 @@
 package src.rajesh.stackProblems;
 
 
+import java.util.Scanner;
 import java.util.Stack;
 
 public class BalancedParentheses {
@@ -37,7 +38,7 @@ public class BalancedParentheses {
     }
 
     public static void main(String[] args) {
-        String input = "(()()(){}{})";
+        String input = "(()()(){}{})[]";
         if(balancedParentheses(input))
             System.out.println("String "+input+" is balanced Parenthesis");
         else

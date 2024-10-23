@@ -1,7 +1,10 @@
 package src.rajesh.programingbasics;
 
-import java.util.Scanner;
+import com.sun.deploy.util.StringUtils;
 
+import java.util.Scanner;
+// What is Prime number?
+//
 public class Prime {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -23,6 +26,5 @@ public class Prime {
         if (c * c > n) {
             System.out.println("Prime");
         }
-        
     }
 }
