@@ -25,8 +25,8 @@ public class ReplaceCharacterOccurrences {
 
     public static void main(String[] args) {
         String str = "hello world";
-        char ch = 'o';
+        char ch = 'l';
         String result = replaceOccurrences(str, ch);
-        System.out.println(result); // Output: he*o wo**d
+        System.out.println(result); // Output: he***o wo***d
     }
 }
